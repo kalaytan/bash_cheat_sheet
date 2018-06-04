@@ -8,9 +8,7 @@
     ./bash_profile # read when bash is started on login
     ./bashrc # executed when new shell is started (evry shell)
 
-### time something
-
-    time ps -l
+    time ps -l # time something
     time sleep 2
 
     nl README.md # like cat but with the line number.
@@ -444,7 +442,7 @@ moves $2 into $1, $3->$2....
     echo a is $a
     echo x is $x
 
-    unset x
+    unset x	
     ${x:?}
     echo Will not get here
 
