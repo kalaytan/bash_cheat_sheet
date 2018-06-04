@@ -1,4 +1,4 @@
-# BASH cheat sheet
+# bash cheat sheet
 
 ## random
 
@@ -86,7 +86,7 @@
     }
     echo $a # prints 2.
 
-### Local Variables and typeset command
+### local variables and typeset command
 
 x must be an integer
 
@@ -164,11 +164,11 @@ x must be an integer
         echo grub named things are $f
     done
 
-### prints Bash builtins
+### prints bash builtins
 
     enable
 
-#### prints Bash keywords
+#### prints bash keywords
 
     compgen -k
 
@@ -196,7 +196,7 @@ different bash might have different default settings
     echo -e # enable backslashed escape characters like \n and \t
     echo -E # disable backslash escape characters in case they were enabled by default
 
-## Redurection and Pipes
+## redurection and pipes
 
     0 => stdin
     1 => stdout
